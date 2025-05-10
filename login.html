@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - SCRAMBLE-X</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: white;
+            }
+
+            .login-container {
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 40px;
+                border-radius: 15px;
+                box-shadow: 0 0 15px rgba(64, 224, 208, 0.5);
+                width: 350px;
+            }
+
+            .login-container h2 {
+                text-align: center;
+                margin-bottom: 25px;
+                color: #40E0D0;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .login-container input[type="text"],
+            .login-container input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: none;
+                border-radius: 8px;
+                background-color: #e0f7f5;
+                color: #333;
+            }
+
+            .login-container input[type="submit"] {
+                width: 100%;
+                padding: 12px;
+                background-color: #40E0D0;
+                color: black;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background 0.3s ease;
+            }
+
+            .login-container input[type="submit"]:hover {
+                background-color: #2fccc2;
+            }
+
+            .login-container p {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .login-container a {
+                color: #40E0D0;
+                text-decoration: none;
+            }
+
+            .login-container a:hover {
+                text-decoration: underline;
+            }
+
+            .forgot-password {
+                text-align: right;
+                margin-top: -15px;
+                margin-bottom: 15px;
+            }
+
+            .forgot-password a {
+                font-size: 0.9em;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="login-container" action="LoginServlet" method="POST">
+            <h2>Login to play SCRAMBLE-X</h2>
+
+            <label>Username:</label>
+            <input type="text" name="username" required />
+
+            <label>Password:</label>
+            <input type="password" name="password" required />
+
+            <div class="forgot-password">
+                <a href="forgot_password.html">Forgot Password?</a>
+            </div>
+
+            <input type="submit" value="Login" />
+
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </form>
+    </body>
+</html>
