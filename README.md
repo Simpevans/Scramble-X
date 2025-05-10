@@ -1,32 +1,24 @@
-🧩 #Scramble-X
+# 🧩 Scramble-X
 
-A fun and interactive word game where players unscramble shuffled words. Built with Java and designed for entertainment purposes.
+**Scramble-X** is a fun and interactive word game where players unscramble shuffled words. Built with **Java EE** and designed for entertainment, it features a login system, score tracking, and persistent storage — all deployable via **GlassFish**.
 
 ---
 
 ## 🎮 Features
 
-   - Randomly scrambled words
-   - Score tracking for correct answers
-   - User login/logout functionality
-   - Leaderboard
-   - Clean and responsive interface
-   - Persistent storage of scores and users (e.g., via JPA/Hibernate)
+- 🔀 Randomly scrambled words from a built-in dictionary
+- 🧠 Score tracking for correct answers
+- 👤 User login/logout functionality
+- 🏆 Leaderboard
+- 💻 Clean and responsive user interface (web-based)
+- 💾 Persistent storage using JPA/Hibernate
+- 🐱‍🏍 GlassFish-ready `.war` deployment
 
 ---
 
 ## 🚀 How to Run
 
-1. **Clone the repository:**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/word-scrambler-game.git
    cd word-scrambler-game
-
----
-
-## What Files are Contained in the Repo
-
-   --.WAR file for GlassFish deployment of the game
-   --other source codes for refence purposes
-   --two project files an EJB and a WebApplication
-   --a database file
