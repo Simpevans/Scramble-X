@@ -1,4 +1,4 @@
-##🧩 Scramble-X
+🧩 #Scramble-X
 
 A fun and interactive word game where players unscramble shuffled words. Built with Java and designed for entertainment purposes.
 
