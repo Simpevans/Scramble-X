@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scramble Words Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Arial', sans-serif;
+                color: #fff;
+                background-color: #000000;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 50px;
+                background-color: #111;
+                border-bottom: 2px solid #1ABC9C;
+            }
+
+            .logo {
+                font-size: 28px;
+                font-weight: bold;
+                color: #1ABC9C;
+            }
+
+            .nav-links {
+                list-style: none;
+                display: flex;
+                gap: 30px;
+            }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.3s;
+            }
+
+            .nav-links a:hover {
+                color: #1ABC9C;
+            }
+
+            .signup-btn {
+                padding: 10px 20px;
+                background: #1ABC9C;
+                border-radius: 30px;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+                transition: transform 0.3s;
+            }
+
+            .signup-btn:hover {
+                transform: scale(1.05);
+                background-color: #16a085;
+            }
+
+            .hero {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: calc(100vh - 80px);
+                padding: 20px;
+                background: linear-gradient(to bottom, #000000, #0a0a0a);
+                position: relative;
+            }
+
+            .hero-content {
+                max-width: 800px;
+                z-index: 1;
+            }
+
+            .hero-content h1 {
+                font-size: 3rem;
+                font-family: 'Impact', sans-serif;
+                color: #1ABC9C;
+                margin-bottom: 20px;
+            }
+
+            .hero-content p {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+                color: #ccc;
+            }
+
+            .play-btn {
+                padding: 15px 30px;
+                background: #1ABC9C;
+                border-radius: 30px;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1rem;
+                transition: transform 0.3s;
+            }
+
+            .play-btn:hover {
+                transform: scale(1.1);
+                background-color: #16a085;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">SCRAMBLE-X</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game.jsp">Game</a></li>
+                    <li><a href="leaderboard.jsp">Leaderboard</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>SCRAMBLE THE WORDS <br> MASTER THE GAME.</h1>
+                <p>Train your brain. Beat the clock. Challenge friends.</p>
+                <a href="login.html" class="play-btn">Play Now</a>
+            </div>
+        </section>
+    </body>
+</html>
