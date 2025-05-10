@@ -1,4 +1,4 @@
-#🧩 Scramble-X
+##🧩 Scramble-X
 
 A fun and interactive word game where players unscramble shuffled words. Built with Java and designed for entertainment purposes.
 
@@ -21,6 +21,8 @@ A fun and interactive word game where players unscramble shuffled words. Built w
    ```bash
    git clone https://github.com/your-username/word-scrambler-game.git
    cd word-scrambler-game
+
+---
 
 ## What Files are Contained in the Repo
 
